@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set(style='dark')
 
 # Load data
-bikeSharing_df = pd.read_csv("all_data.csv") 
+bikeSharing_df = pd.read_csv("Bike-Sharing-EDA/dashboard/all_data.csv") 
 
 # Mapping label cuaca
 weather_cond = {
